@@ -1,0 +1,45 @@
+{
+  "rag_settings": {
+    "data_sources": {
+      "survey_data_path": "surveys/",
+      "sql_queries_path": "data/raw/",
+      "processed_data_path": "data/processed/",
+      "schema_path": "config/schemas/",
+      "prompts_path": "config/ai_prompts/",
+      "notebooks_path": "notebooks/"
+    },
+    "supported_file_types": [".csv", ".sql", ".json"],
+    "max_file_size_mb": 50,
+    "processing_notebook": "notebooks/survey_data_processor.ipynb",
+    "default_analysis_types": [
+      "overall_summary",
+      "ltr_analysis", 
+      "satisfaction_trends",
+      "demographic_breakdown"
+    ]
+  },
+  "sharepoint_integration": {
+    "auto_sync": false,
+    "sync_schedule": "daily",
+    "monitored_folders": [
+      "surveys/*/",
+      "data/raw/",
+      "data/processed/"
+    ],
+    "file_validation": true,
+    "required_permissions": ["read", "write_processed", "monitor"],
+    "supported_file_extensions": [".sql", ".csv", ".json", ".ipynb"]
+  },
+  "ai_configuration": {
+    "default_model": "gpt-4",
+    "temperature": 0.1,
+    "max_tokens": 2000,
+    "system_prompt_key": "survey_analyst"
+  },
+  "output_formats": {
+    "supported_formats": ["markdown", "json", "csv", "html"],
+    "default_format": "markdown",
+    "include_charts": true,
+    "include_raw_data": false
+  }
+}

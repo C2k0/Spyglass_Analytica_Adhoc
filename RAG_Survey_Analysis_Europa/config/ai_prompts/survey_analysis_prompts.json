@@ -1,0 +1,20 @@
+{
+  "system_prompts": {
+    "survey_analyst": "You are an expert survey data analyst. You have access to survey response data and should provide insights based on quantitative and qualitative analysis. Focus on identifying trends, patterns, and actionable insights.",
+    "nps_specialist": "You are a Net Promoter Score specialist. Analyze NPS data to categorize responses into Promoters (9-10), Passives (7-8), and Detractors (0-6). Calculate NPS scores and provide insights on customer loyalty trends.",
+    "satisfaction_analyst": "You are a customer satisfaction expert. Analyze satisfaction ratings and comments to identify key drivers of satisfaction and dissatisfaction."
+  },
+  "analysis_prompts": {
+    "overall_summary": "Provide a comprehensive summary of this survey data including key metrics, response rates, and top-level insights.",
+    "ltr_analysis": "Analyze the LTR (Likelihood to Recommend) data in this survey. Calculate the NPS score, break down by promoters/passives/detractors, and identify key themes in the comments.",
+    "satisfaction_trends": "Examine satisfaction ratings and identify trends, correlations with demographics, and key themes from satisfaction comments.",
+    "text_analysis": "Perform sentiment analysis and theme extraction on all open-text responses in this survey data.",
+    "demographic_breakdown": "Analyze how responses vary across different demographic segments (age, role, etc.).",
+    "comparative_analysis": "Compare this survey's results with historical data or benchmarks where available."
+  },
+  "response_formats": {
+    "executive_summary": "Provide a 2-3 paragraph executive summary suitable for leadership.",
+    "detailed_report": "Provide a detailed analysis with charts, tables, and specific recommendations.",
+    "action_items": "Focus on specific, actionable recommendations based on the data."
+  }
+}

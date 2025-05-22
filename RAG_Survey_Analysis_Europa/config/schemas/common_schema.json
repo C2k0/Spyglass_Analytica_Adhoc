@@ -1,0 +1,62 @@
+{
+  "common_fields": {
+    "ResponseID": {
+      "type": "string",
+      "required": true,
+      "description": "Unique identifier for each survey response"
+    },
+    "Timestamp": {
+      "type": "datetime",
+      "required": true,
+      "description": "When the survey was completed"
+    },
+    "NPS_Score": {
+      "type": "integer",
+      "range": [0, 10],
+      "required": false,
+      "description": "Net Promoter Score (0-10 scale)"
+    },
+    "NPS_Comment": {
+      "type": "text",
+      "required": false,
+      "description": "Open text feedback for NPS rating"
+    },
+    "Satisfaction_Rating": {
+      "type": "integer",
+      "range": [1, 5],
+      "required": false,
+      "description": "Overall satisfaction rating (1-5 scale)"
+    },
+    "Satisfaction_Comment": {
+      "type": "text",
+      "required": false,
+      "description": "Open text feedback for satisfaction rating"
+    },
+    "Demographics_Age": {
+      "type": "string",
+      "options": ["18-24", "25-34", "35-44", "45-54", "55-64", "65+"],
+      "required": false,
+      "description": "Age range of respondent"
+    },
+    "Demographics_Role": {
+      "type": "string",
+      "required": false,
+      "description": "Job role or position of respondent"
+    },
+    "Free_Text_Feedback": {
+      "type": "text",
+      "required": false,
+      "description": "General open-ended feedback"
+    }
+  },
+  "custom_fields": {
+    "Custom_Metric_1": {
+      "type": "flexible",
+      "description": "Survey-specific metric - update per survey"
+    },
+    "Custom_Metric_2": {
+      "type": "flexible",
+      "description": "Survey-specific metric - update per survey"
+    }
+  }
+}

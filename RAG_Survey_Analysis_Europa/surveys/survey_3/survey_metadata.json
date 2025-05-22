@@ -1,0 +1,38 @@
+{
+  "survey_info": {
+    "survey_name": "Survey 1",
+    "survey_type": "UPDATE_REQUIRED",
+    "description": "UPDATE_REQUIRED - Brief description of survey purpose",
+    "target_audience": "UPDATE_REQUIRED",
+    "collection_period": {
+      "start_date": "UPDATE_REQUIRED",
+      "end_date": "UPDATE_REQUIRED"
+    },
+    "sample_size_target": "UPDATE_REQUIRED",
+    "response_rate_target": "UPDATE_REQUIRED"
+  },
+  "custom_fields": {
+    "Custom_Metric_1": {
+      "description": "UPDATE_REQUIRED - What does this field measure?",
+      "data_type": "UPDATE_REQUIRED - integer/string/text",
+      "scale": "UPDATE_REQUIRED - e.g., 1-5, Yes/No, etc.",
+      "question_text": "UPDATE_REQUIRED - Exact question asked"
+    },
+    "Custom_Metric_2": {
+      "description": "UPDATE_REQUIRED - What does this field measure?",
+      "data_type": "UPDATE_REQUIRED - integer/string/text",
+      "scale": "UPDATE_REQUIRED - e.g., 1-5, Yes/No, etc.",
+      "question_text": "UPDATE_REQUIRED - Exact question asked"
+    }
+  },
+  "analysis_notes": {
+    "key_hypotheses": "UPDATE_REQUIRED - What are you trying to understand?",
+    "benchmarks": "UPDATE_REQUIRED - Any comparison benchmarks or targets",
+    "special_considerations": "UPDATE_REQUIRED - Anything unique about this survey"
+  },
+  "data_quality": {
+    "last_updated": "UPDATE_REQUIRED",
+    "data_source": "UPDATE_REQUIRED - Where did this data come from?",
+    "known_issues": "UPDATE_REQUIRED - Any data quality concerns"
+  }
+}
