@@ -1,0 +1,115 @@
+{
+  "dictionaries": {
+    "satisfaction_5_scale": {
+      "very dissatisfied": 1,
+      "dissatisfied": 2,
+      "neutral": 3,
+      "satisfied": 4,
+      "very satisfied": 5
+    },
+    
+    "agreement_5_scale": {
+      "strongly disagree": 1,
+      "disagree": 2,
+      "neutral": 3,
+      "agree": 4,
+      "strongly agree": 5
+    },
+    
+    "frequency_5_scale": {
+      "never": 1,
+      "rarely": 2,
+      "sometimes": 3,
+      "often": 4,
+      "always": 5
+    },
+    
+    "quality_5_scale": {
+      "very poor": 1,
+      "poor": 2,
+      "fair": 3,
+      "good": 4,
+      "excellent": 5
+    },
+    
+    "yes_no_binary": {
+      "yes": 1,
+      "no": 0,
+      "y": 1,
+      "n": 0
+    },
+    
+    "true_false_binary": {
+      "true": 1,
+      "false": 0,
+      "t": 1,
+      "f": 0
+    },
+    
+    "importance_5_scale": {
+      "not at all important": 1,
+      "slightly important": 2,
+      "moderately important": 3,
+      "very important": 4,
+      "extremely important": 5
+    },
+    
+    "likelihood_5_scale": {
+      "very unlikely": 1,
+      "unlikely": 2,
+      "neutral": 3,
+      "likely": 4,
+      "very likely": 5
+    },
+    
+    "difficulty_5_scale": {
+      "very easy": 5,
+      "easy": 4,
+      "moderate": 3,
+      "difficult": 2,
+      "very difficult": 1
+    },
+    
+    "performance_5_scale": {
+      "far below expectations": 1,
+      "below expectations": 2,
+      "meets expectations": 3,
+      "above expectations": 4,
+      "far above expectations": 5
+    },
+    
+    "recommendation_10_scale": {
+      "0": 0, "1": 1, "2": 2, "3": 3, "4": 4,
+      "5": 5, "6": 6, "7": 7, "8": 8, "9": 9, "10": 10
+    },
+    
+    "priority_3_scale": {
+      "low": 1,
+      "medium": 2,
+      "high": 3
+    },
+    
+    "size_5_scale": {
+      "much too small": 1,
+      "too small": 2,
+      "just right": 3,
+      "too large": 4,
+      "much too large": 5
+    },
+    
+    "change_5_scale": {
+      "much worse": 1,
+      "somewhat worse": 2,
+      "no change": 3,
+      "somewhat better": 4,
+      "much better": 5
+    },
+    
+    "awareness_4_scale": {
+      "not at all aware": 1,
+      "slightly aware": 2,
+      "moderately aware": 3,
+      "extremely aware": 4
+    }
+  }
+}

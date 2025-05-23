@@ -3,6 +3,14 @@
 ## Overview
 This document provides context and instructions for AI systems analyzing survey data in this repository.
 
+## Data Access
+Processed survey data is available in `rag_outputs/current/`:
+- **combined_ltr_drivers.csv** - NPS scores and driver metrics across all surveys
+- **combined_all_surveys.csv** - Complete dataset with all survey responses
+- **processing_summary.csv** - Metadata about data freshness and processing status
+
+Always check the processing_summary.csv first to understand data recency and any processing issues.
+
 ## Data Structure
 
 ### Common Fields Across All Surveys

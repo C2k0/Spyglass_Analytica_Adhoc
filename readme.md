@@ -24,7 +24,9 @@ Spyglass_Analytica_Adhoc/
 
 ## Current Projects
 
-- **Quick_Survey_Analysis**: Tools for analyzing and interpreting survey data with response mapping functionality.
+- **Quick_Survey_Analysis**: Tools for analyzing and interpreting survey data with response mapping functionality. Contains utilities for converting text responses to numerical values, statistical analysis, data visualization, segment analysis, and free text analysis.
+
+- **RAG_Survey_Analysis_Europa**: A structured RAG (Retrieval-Augmented Generation) system for analyzing survey data using AI/ChatGPT integration with SharePoint data access. Features automated SQL query processing, column validation, LTR/driver analysis, and standardized AI prompts for consistent survey analysis across multiple data sources.
 
 ## Usage
 

@@ -1,0 +1,30 @@
+{
+  "surveys": {
+    
+    "survey_1": {
+      "columns": {
+        "Custom_Metric_1": "satisfaction_5_scale",
+        "Custom_Metric_2": "agreement_5_scale",
+        "Custom_Metric_3": "quality_5_scale",
+        "Custom_Metric_4": "yes_no_binary",
+        "Custom_Metric_5": "frequency_5_scale"
+      }
+    },
+    
+    "survey_2": {
+      "columns": {
+        "Custom_Metric_1": "importance_5_scale",
+        "Custom_Metric_2": "likelihood_5_scale",
+        "Custom_Metric_3": "performance_5_scale",
+        "Custom_Metric_4": "true_false_binary",
+        "Custom_Metric_5": "difficulty_5_scale"
+      }
+    }
+  },
+  
+  "default_mappings": {
+    "NPS_Score": "recommendation_10_scale",
+    "Satisfaction_Rating": "satisfaction_5_scale",
+    "Yes_No_Question": "yes_no_binary"
+  }
+}

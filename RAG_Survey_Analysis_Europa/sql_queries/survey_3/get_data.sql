@@ -1,0 +1,7 @@
+-- Survey 3 Data Query
+-- Purpose: Extract survey 3 responses
+-- 
+-- Expected columns:
+--   ResponseID, Timestamp, [survey-specific columns]
+--
+-- Add your SQL query below:

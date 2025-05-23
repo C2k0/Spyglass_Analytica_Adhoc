@@ -1,0 +1,7 @@
+-- Survey 5 Data Query
+-- Purpose: Extract survey 5 responses
+-- 
+-- Expected columns:
+--   ResponseID, Timestamp, [survey-specific columns]
+--
+-- Add your SQL query below:

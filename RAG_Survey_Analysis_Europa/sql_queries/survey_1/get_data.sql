@@ -1,0 +1,9 @@
+-- Survey 1 Data Query
+-- Purpose: Extract survey 1 responses
+-- 
+-- Expected columns:
+--   ResponseID, Timestamp, Custom_Metric_1, Custom_Metric_2,
+--   Custom_Metric_3, Custom_Metric_4, Custom_Metric_5,
+--   [any additional survey-specific columns]
+--
+-- Add your SQL query below:
