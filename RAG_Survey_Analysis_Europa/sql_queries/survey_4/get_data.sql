@@ -1,7 +1,11 @@
 -- Survey 4 Data Query
 -- Purpose: Extract survey 4 responses
 -- 
--- Expected columns:
---   ResponseID, Timestamp, [survey-specific columns]
+-- Required columns (MUST be included):
+--   YRMO (date in YYMM format), LTR (satisfaction score),
+--   ResponseID, Timestamp
+--
+-- Expected additional columns:
+--   [survey-specific columns]
 --
 -- Add your SQL query below:

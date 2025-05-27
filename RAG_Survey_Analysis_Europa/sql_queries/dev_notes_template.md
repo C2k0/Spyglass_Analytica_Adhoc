@@ -8,12 +8,21 @@
 - **Main Table**: [primary table name]
 - **Join Tables**: [list any joined tables]
 
-## Column Mappings
+## Required Fields
+
+All queries must include these mandatory fields:
+
+| SQL Column | Description | Format | Transformation |
+|------------|-------------|--------|----------------|
+| YRMO | Survey period date | YYMM (e.g., 2401) | None |
+| LTR | Satisfaction score | Numerical | None |
+| ResponseID | Unique response identifier | String/Integer | None |
+| Timestamp | Response submission time | Datetime | None |
+
+## Additional Column Mappings
 
 | SQL Column | Description | Transformation |
 |------------|-------------|----------------|
-| ResponseID | Unique response identifier | None |
-| Timestamp | Response submission time | None |
 | [Column_Name] | [Description] | [dictionary_name or None] |
 
 ## SQL Logic

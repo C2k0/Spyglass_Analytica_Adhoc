@@ -1,5 +1,7 @@
 # CLAUDE.md
 
+**Version: 0.8.0**
+
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Repository Overview
@@ -43,9 +45,37 @@ Spyglass_Analytica_Adhoc/
   - Data mappings (e.g., dictionaries mapping text responses to numerical values)
   - Visualization functions
 
+### Data Import Standards
+
+All projects must adhere to the following data import requirements:
+
+1. **YRMO Field**: Required date field in YYMM format (e.g., "2401" for January 2024)
+   - Must be present in all datasets
+   - Format: Two-digit year followed by two-digit month
+   - Field name: "YRMO"
+
+2. **LTR Field**: Required satisfaction score field
+   - Must be present in all datasets  
+   - Field name: "LTR"
+   - Should contain numerical satisfaction scores
+
 ### Extending Projects
 
 When adding new functionality:
 1. Add new functions to the project's utility module
 2. Update the notebook to demonstrate the new functionality
 3. Document any new dependencies or data format requirements
+4. Ensure data imports comply with YRMO and LTR field standards
+
+
+## Git Commit Message Guidelines
+
+When creating git commits, use this exact format:
+
+1. **First line**: Version number (e.g., "Version 0.5.0")
+2. **Blank line**
+3. **Features added** (bulleted list starting with "- Add")
+4. **Blank line** 
+5. **Removals** (bulleted list starting with "- Remove")
+
+**DO NOT INCLUDE**: Authoring, reviewing info, emojis, or any other text.
